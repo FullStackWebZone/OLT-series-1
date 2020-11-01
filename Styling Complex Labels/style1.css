@@ -1,0 +1,28 @@
+body {
+  background-color: #f2f8ff;
+  color: #263238;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+div + div {
+  padding-top: 1em;
+}
+
+label, input {
+  cursor: pointer;
+}
+
+.plan-details {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.plan-name {
+  color: #1B68C7;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.plan-cost {
+  font-weight: bold;
+}
